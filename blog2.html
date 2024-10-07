@@ -757,7 +757,7 @@ body {
 
       <!-- Card 6 -->
       <div class="bg-white rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300" style="max-width: 350px;">
-        <img src="Images\b3.jpg" alt="Blog Image 6" class="w-full h-48 object-cover">
+        <img src="Images/b3.jpg" alt="Blog Image 6" class="w-full h-48 object-cover">
         <div class="p-6">
           <h3 class="text-xl font-bold mb-2">Blog Title 6</h3>
           <p class="text-gray-600 mb-4">Join us in exploring the wonderful world of blogging and minimalism.</p>
@@ -770,13 +770,11 @@ body {
   </div>
 </section>
 
-
-
-
-
-    <!-- footer -->
+  <!-- footer -->
+  <!-- footer -->
 <footer class="bg-gray-800 text-white py-10">
   <div class="container mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-4 gap-8">
+    <!-- Column 1: Logo and description -->
     <div class="flex flex-col items-center">
       <img src="Images/paarsg logo.jpg" alt="Paarsh Logo" class="w-32 mb-4">
       <p class="text-sm text-center mb-4">
@@ -791,18 +789,19 @@ body {
       </div>
     </div>
 
+    <!-- Column 2: Quick Links -->
     <div class="flex flex-col items-center md:items-start">
       <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
       <ul class="space-y-2">
         <li><a href="index.html" class="hover:underline">Home</a></li>
-
+        
         <li><a href="vision.html" class="hover:underline">Vision</a></li>
-        <li><a href="team.html" class="hover:underline">Team</a></li>
         <li><a href="about.html" class="hover:underline">About</a></li>
-        <li><a href="blog2.html" class="hover:underline">Blog</a></li>
+        <li><a href="#" class="hover:underline">Blog</a></li>
       </ul>
     </div>
 
+    <!-- Column 3: Hamburger Menu -->
     <div class="flex flex-col items-center md:items-start">
       <button class="text-white bg-gray-700 p-3 rounded-lg" id="menuButton">
         <i class="fa-solid fa-bars"></i> Menu
@@ -817,6 +816,7 @@ body {
       </div>
     </div>
 
+    <!-- Column 4: Contact Info -->
     <div class="flex flex-col items-center md:items-start">
       <h3 class="text-lg font-semibold mb-4">Contact</h3>
       <ul class="space-y-2">
@@ -828,20 +828,21 @@ body {
     </div>
   </div>
 </footer>
-
+<!-- Section for copyright and policies -->
 <section class="bg-gray-900 text-white py-4">
   <div class="container mx-auto px-4 md:px-8 flex flex-col md:flex-row justify-between items-center">
+    <!-- Left side: Copyright text -->
     <p class="text-sm text-center md:text-left mb-4 md:mb-0">
       Copyrights © 2023 Paarsh E-Learning. All rights reserved.
     </p>
    
+    <!-- Right side: Terms and Privacy links -->
     <div class="space-x-4 flex justify-center md:justify-end">
       <a href="#" class="hover:underline">Terms & Conditions</a>
       <a href="#" class="hover:underline">Privacy Policy</a>
     </div>
   </div>
 </section>
-
 <script>
   const menuButton = document.getElementById('menuButton');
   const dropdownMenu = document.getElementById('dropdownMenu');
